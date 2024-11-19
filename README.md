@@ -58,6 +58,17 @@ jupyter notebook
 
 Then open the notebook and run the cells.
 
+### 5. Comet_ml account creation
+
+Set Up Logging For Experimentation¶
+
+Comet ML provides a convenient API to log experiments in a way easy to follow. It is also free for individuals. There are also other choices, you can replace it with your choice of platform.
+
+
+Login using your api key.
+
+Do not hardcode you api key, use an configuration file or use secrets if you are using colabs or kaggle
+
 ## Notes
 
 - If you're running into any issues with dependencies, try upgrading the packages using `pip install --upgrade <package-name>`.
