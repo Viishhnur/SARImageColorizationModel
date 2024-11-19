@@ -1,6 +1,6 @@
 ### README.md content:
 
-# PyTorch Project
+# SAR Image Colorization
 
 This repository contains a Jupyter Notebook (`.ipynb`) file that demonstrates the use of PyTorch for SAR image colorization . It is recommended to set up the environment using Conda or virtualenv to ensure the dependencies are correctly installed.
 
@@ -23,11 +23,11 @@ cd SARColorizationPix2Pix
 If you are using Conda, create an environment with the necessary dependencies:
 
 ```bash
-conda create --name myenv python=3.x
-conda activate myenv
+conda create -n sarConda python=3.10
+conda activate sarConda
 ```
 
-### 3. Install required dependencies
+### 3. Install required dependencies(If using pip)
 
 Install the required Python packages using `requirements.txt`:
 
@@ -44,7 +44,9 @@ pip install pandas
 pip install matplotlib
 pip install scikit-learn
 ```
-
+### Install pytorch 
+Navigate to https://pytorch.org/get-started/locally/ 
+check your operating system , cuda version , python version and install pytorch in conda environment 
 ### 4. Run the Jupyter notebook
 
 Once the environment is set up, you can start Jupyter and run the notebook:
