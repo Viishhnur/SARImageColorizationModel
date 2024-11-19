@@ -9,7 +9,8 @@ This repository contains a Jupyter Notebook (`.ipynb`) file that demonstrates th
 Follow these steps to set up the environment and run the notebook:
 
 ### Download the Sentinal 1,2 - images dataset 
-https://www.kaggle.com/code/yuulind/pix2pix-sar-to-rgb-image-translation/input
+https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain
+After downloading move to the same directory where you are having the .ipynb file
 
 ### 1. Clone the repository
 
