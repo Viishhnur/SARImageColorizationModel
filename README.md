@@ -8,9 +8,6 @@ This repository contains a Jupyter Notebook (`.ipynb`) file that demonstrates th
 
 Follow these steps to set up the environment and run the notebook:
 
-### Download the Sentinal 1,2 - images dataset 
-https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain
-After downloading move to the same directory where you are having the .ipynb file
 
 ### 1. Clone the repository
 
@@ -18,8 +15,11 @@ After downloading move to the same directory where you are having the .ipynb fil
 git clone https://github.com/Viishhnur/SARImageColorizationModel.git
 cd SARColorizationPix2Pix
 ```
+### 2. Download the Sentinal 1,2 - images dataset 
+https://www.kaggle.com/datasets/requiemonk/sentinel12-image-pairs-segregated-by-terrain
+After downloading move to the same directory where you are having the .ipynb file
 
-### 2. Create a Conda environment (optional but recommended)
+### 3. Create a Conda environment (optional but recommended)
 
 If you are using Conda, create an environment with the necessary dependencies:
 
@@ -28,7 +28,7 @@ conda create -n sarConda python=3.10
 conda activate sarConda
 ```
 
-### 3. Install required dependencies(If using pip)
+### 4.1 Install required dependencies(If using pip)
 
 Install the required Python packages using `requirements.txt`:
 
@@ -40,15 +40,17 @@ Alternatively, you can manually install dependencies like PyTorch:
 
 ```bash
 pip install torch
+pip install torchvision
 pip install numpy
 pip install pandas
 pip install matplotlib
 pip install scikit-learn
 ```
-### Install pytorch 
+### 4.2 Install pytorch 
 Navigate to https://pytorch.org/get-started/locally/ 
 check your operating system , cuda version , python version and install pytorch in conda environment 
-### 4. Run the Jupyter notebook
+
+### 5. Run the Jupyter notebook
 
 Once the environment is set up, you can start Jupyter and run the notebook:
 
@@ -58,7 +60,7 @@ jupyter notebook
 
 Then open the notebook and run the cells.
 
-### 5. Comet_ml account creation
+### 6. Comet_ml account creation
 
 Set Up Logging For Experimentation¶
 
