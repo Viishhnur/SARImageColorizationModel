@@ -1,0 +1,61 @@
+### README.md content:
+
+# PyTorch Project
+
+This repository contains a Jupyter Notebook (`.ipynb`) file that demonstrates the use of PyTorch for SAR image colorization . It is recommended to set up the environment using Conda or virtualenv to ensure the dependencies are correctly installed.
+
+## Setup Instructions
+
+Follow these steps to set up the environment and run the notebook:
+
+### Download the Sentinal 1,2 - images dataset 
+https://www.kaggle.com/code/yuulind/pix2pix-sar-to-rgb-image-translation/input
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Viishhnur/SARImageColorizationModel.git
+cd SARColorizationPix2Pix
+```
+
+### 2. Create a Conda environment (optional but recommended)
+
+If you are using Conda, create an environment with the necessary dependencies:
+
+```bash
+conda create --name myenv python=3.x
+conda activate myenv
+```
+
+### 3. Install required dependencies
+
+Install the required Python packages using `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+Alternatively, you can manually install dependencies like PyTorch:
+
+```bash
+pip install torch
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install scikit-learn
+```
+
+### 4. Run the Jupyter notebook
+
+Once the environment is set up, you can start Jupyter and run the notebook:
+
+```bash
+jupyter notebook
+```
+
+Then open the notebook and run the cells.
+
+## Notes
+
+- If you're running into any issues with dependencies, try upgrading the packages using `pip install --upgrade <package-name>`.
+- This repository requires **PyTorch**. Make sure your environment has the correct version installed (e.g., `torch==2.1.0`).
