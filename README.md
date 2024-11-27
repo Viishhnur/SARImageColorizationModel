@@ -8,9 +8,9 @@ This is a Pix2Pix CGAN implementation for translating Synthetic Aperture Radar (
 
 This repository contains a Jupyter Notebook (`sarpix2pixa.ipynb`) file that demonstrates the use of PyTorch for SAR image colorization . It is recommended to set up the environment using Conda or virtualenv to ensure the dependencies are correctly installed.
 
-## Download the model
-pix2pix_gen_120.pth -> Pix2Pix generator with transpose convolution, 120 epochs. **FID score is 498.012** [pix2pix_gen_120.pth]
-(https://huggingface.co/spaces/viishhnu/Remote-Sensing-SAR/resolve/main/models/pix2pix_gen_120.pth)
+# Download the model
+[pix2pix_gen_120.pth](https://huggingface.co/spaces/viishhnu/Remote-Sensing-SAR/resolve/main/models/pix2pix_gen_120.pth) -> Pix2Pix generator with transpose convolution, 120 epochs. **FID score is 498.012**
+
 
 ## Setup Instructions
 
