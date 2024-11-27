@@ -1,0 +1,34 @@
+# Ignore Conda environment directories
+**/.conda/
+**/envs/
+**/miniforge3/
+**/anaconda3/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+.vscode/
+.idea/
+
+# Ignore logs and other temporary files
+*.log
+*.bak
+
+# Ignore .env or configuration files
+.env
+*.condarc
+
+# Ignore Jupyter Notebook's output and saved states
+*.ipynb_checkpoints/
+
+*.onnx
+
+*.pth
+
+/v_2
