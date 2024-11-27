@@ -1,8 +1,14 @@
-### README.md content:
 
 # SAR Image Colorization
 
-This repository contains a Jupyter Notebook (`.ipynb`) file that demonstrates the use of PyTorch for SAR image colorization . It is recommended to set up the environment using Conda or virtualenv to ensure the dependencies are correctly installed.
+# Overview
+
+This is a Pix2Pix CGAN implementation for translating Synthetic Aperture Radar (SAR) images to optical images.
+
+![Example outputs](assets/images/model_results.png)
+
+This repository contains a Jupyter Notebook (`sarpix2pixa.ipynb`) file that demonstrates the use of PyTorch for SAR image colorization . It is recommended to set up the environment using Conda or virtualenv to ensure the dependencies are correctly installed.
+
 
 ## Setup Instructions
 
