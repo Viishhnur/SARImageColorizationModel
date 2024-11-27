@@ -32,3 +32,4 @@ __pycache__/
 *.pth
 
 /v_2
+pix2pix_sar_to_rgb_image_translation.ipynb
