@@ -34,7 +34,7 @@ training:
   eval_freq: 5   # run evaluation every N epochs
   resume: false  # whether to resume from checkpoint
   resume_epoch: 0 # start from epoch X
-  gen_checkpoint: "pix2pix_gen_295.pth" # Gen checkpoint path 
+  gen_checkpoint: "pix2pix_gen_120.pth" # Gen checkpoint path 
   disc_checkpoint: "./models/checkpoints/pix2pix_disc_X.pth" # Disc checkpoint path
   checkpoint_dir: "./models/checkpoints"
   results_dir: "./models/results"
